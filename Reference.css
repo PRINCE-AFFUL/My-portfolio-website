@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background-color: deepskyblue;
+
+}
+.p1{
+    
+    background-color: black;
+}
+img{
+    height: 400px;
+    margin-left: 100px;
+}
+.p2{
+    text-align: center;
+    float: left;
+    width: 100px;
+    width: 200px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    background: red;
+    height: 100px;
+}
+
+@media screen and ( min width:8
+    .container{
+        width:80%;
+        background: green;
+        height: 200px;
+    }

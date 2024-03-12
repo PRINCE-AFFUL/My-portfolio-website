@@ -1,0 +1,43 @@
+
+.p1{
+    font-size: 30px;
+color: aliceblue;
+background-color: deepskyblue;
+border: 20px solid red;
+
+}
+.p2{
+    font-size: 40px;
+    background-color: deepskyblue;
+    color: black
+    border: 20px solid gold;
+}
+.P3{
+    background-color: dodgerblue;
+    color: aliceblue;
+    border: 10px solid green;
+}
+.container{
+    width: 90%;
+    background: red;
+    height: 100px;
+}
+.A1{
+    border: 50px solid brown;
+}
+.B2{
+    border: 50px solid brown;
+}
+.B3{
+    border: 50PX solid brownS;
+}
+a{
+    text-decoration: none;
+}
+@media screen and ( min width:8
+    .container{
+        width:80%;
+        background: green;
+        height: 200px;
+    }
+}
