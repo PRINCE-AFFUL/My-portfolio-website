@@ -164,10 +164,27 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-style: italic;
-    background-color: magenta;
     color: white;
+   
 }
 a:hover{
-    background-color: chartreuse;
+   
     color: purple;
+}
+nav{
+    background-color: gray;
+    color: white;
+  
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-left: 35rem;
+    background-color: blue;
+    color: white;
+}
+.active{
+  
+
 }

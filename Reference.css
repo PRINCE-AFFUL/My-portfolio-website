@@ -7,10 +7,14 @@ body{
 a{
     text-decoration: none;
     text-align: center;
-    font-size: 50px;
+    background-color: blue;
     font-style: italic;
     color: black;
     color: white;
+}
+a:hover{
+  background-color: white;
+  color: blue;
 }
 img{
     border-radius: 50px;
@@ -18,9 +22,17 @@ img{
     width: 300px;
 }
 
-@media only screen and(max-width: 600px)
-body{
-    background-color:light blue;
+nav{
+    background-color: black;
+    color: white;
+  height: 5rem;
+  
 }
-
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-left: 35rem;
+    background-color: blue;
+    color: white;
 }

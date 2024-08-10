@@ -14,13 +14,11 @@ a{
     font-style: italic;
 
     text-decoration: none;
-    background-color: magenta;
-    color: white;
+  color: white;
     gap: 1rem;
 }
 a:hover{
-    background-color: chartreuse;
-    color: purple;
+ 
 }
 img{
     height: 400px;
@@ -57,7 +55,20 @@ img{
     font-size: 30px;
     font-style: italics;
 }
-
+nav{
+    background-color: black;
+    color: white;
+  height: 5rem;
+  
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-left: 35rem;
+background-color: grey;
+color: white;
+}
 
 
 

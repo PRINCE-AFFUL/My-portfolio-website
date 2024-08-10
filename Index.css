@@ -265,15 +265,14 @@ body{
         font-style: italic;
   
         text-decoration: none;
-        background-color: magenta;
-        color: white;
+      
         gap: 1rem;
     }
     .A1{
         margin-left: 55rem;
     }
     a:hover{
-        background-color: chartreuse;
+        
         color: purple;
     }
     .MAIN:hover{
@@ -284,3 +283,17 @@ body{
         background-color: deeppink;
         color: blue;
     }
+    nav{
+        background-color: gray;
+        color: white;
+      
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+        margin-left: 35rem;
+        background-color: yellow;
+        color: black;
+    }
+  
