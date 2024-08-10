@@ -1,59 +1,286 @@
 body{
     background-color: black;
-    font-size: 20px;
-    font-style: italic;
-}
-
-img{
-    height: 500px;
-    width: 100px;
-    background-color: black;
-    float: left;
-    width: 700px;
-    
-}
-
-.p1{
-    text-align: center;
-    background-color: black;
-    color: deeppink;
-    float: right;
-    width: 700px;
-    font-size: 50px;
-}
-.p2{
-    text-align: center;
-    background-color: black;
-    color: aliceblue;
-}
-.p3{
-    font-size: 30px;
-    color: yellow;
-    float: right;
-    width: 500PX;
-}
-
-a{
-    text-decoration: none;
-}
-a{
-    text-decoration: none;
-}
-
-
-    .container{
-        width: 90%;
-        background: red;
-        height: 100px;
     }
-
-    @media screen and (max-width:768px){
-   
-img{
-    height: 500px;
-    width: 100px;
-    float: center;
-    width: 300px;
+    .pages{
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        margin-left: 55rem;
+    }
+    .Home{
+    font-size: 25px;
+    color: yellow;
+    text-decoration: underline;
+    }
+    .About{
+        font-size: 25px;
+        color: white;
+    }
+    .Contact{
+        font-size: 25px;
+        color: white;
+    }
+    .Pedigree{
+        font-size: 25px;
+        color: white;
+    }
+    .Hello{
+        font-size: 30px;
+        color: yellow;
+        margin-left: 10rem;
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10rem;
+        gap: 1rem;
+        margin-top: -2rem;
+    }
+    .intro{
+        font-size: 40px;
+        color: white;
+    }
+    .Name{
+        font-size: 40px;
+        color: yellow;  
+    }
+    .Surname{
+        font-size: 40px;
+        color: yellow; 
+        margin-left: 10rem;
+        margin-top: -2rem;
+    }
+    .Start{
+        font-size: 25px;
+        color: white;
+        margin-left: 10rem;
+        margin-top: -2rem;
+    }
+    .numbers{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10rem;
+        gap: 1rem;
+    }
+    .one{
+        border: 10px solid yellow;
+        border-radius: 50px;
+       
+        width: 5rem;
+        text-align: center;
+        background-color: yellow;
+       
+    }
+    .two{
+        border: 2px solid white;
+        border-radius: 50px;
+        color: white;
+        width: 6rem;
+        text-align: center;
+    }
     
-}
-}
+    .container{
+        display: flex;
+        flex-direction: row;
+    
+      border-radius: 50px;
+      transform: rotate(360deg);
+        margin-left: 45rem;
+        margin-top: -19rem; 
+       
+    
+    
+    }
+    img{
+        border-radius: 50px;
+        height: 25rem;
+        width: 26rem;
+    }
+    .PIC{
+        margin-left: 7rem;
+    }
+    .About{
+        color: white;
+        font-size: 40px;
+        margin-left: 45rem;
+        gap: 1rem;
+        margin-top: -20rem;
+    }
+    .Speech{
+        color: gray;
+        font-size: 20px;
+        margin-left: 45rem;
+    }
+    .A{
+        display: flex;
+        flex-direction: row;
+        margin-left: 45rem;
+        gap: 1rem;
+    }
+    .NAME{
+        color: white;
+        font-size: 30PX;
+    }
+    .Prince{
+        color: gray;
+        font-size: 30px;
+    }
+    .B{
+        display: flex;
+        flex-direction: row;
+        margin-left: 45rem;
+        gap: 1rem;
+    }
+    .Date{
+        color: white;
+        font-size: 30PX;
+    }
+    .DATE{
+        color: gray;
+        font-size: 30px;
+    }
+    .C{
+        display: flex;
+        flex-direction: row;
+        margin-left: 45rem;
+        gap: 1rem;
+    }
+    .House{
+        color: white;
+        font-size: 30PX;
+    }
+    .Address{
+        color: gray;
+        font-size: 30px;
+    }
+    .D{
+        display: flex;
+        flex-direction: row;
+        margin-left: 45rem;
+        gap: 1rem;
+    }
+    .Zip{
+        color: white;
+        font-size: 30PX;
+    }
+    .Code{
+        color: gray;
+        font-size: 30px;
+    }
+    .E{
+        display: flex;
+        flex-direction: row;
+        margin-left: 45rem;
+        gap: 1rem;
+    }
+    .E-mail{
+        color: white;
+        font-size: 30PX;
+    }
+    .Email{
+        color: gray;
+        font-size: 30px;
+    }
+    .F{
+        display: flex;
+        flex-direction: row;
+        margin-left: 45rem;
+        gap: 1rem;
+    }
+    .Tele{
+        color: white;
+        font-size: 30PX;
+    }
+    .Phone{
+        color: gray;
+        font-size: 30px;
+    }
+    .Number{
+        display: flex;
+        flex-direction: row;
+        margin-left: 45rem;
+        gap: 1rem;
+    }
+    .One-twenty{
+        color: goldenrod;
+        font-size: 30PX;
+    }
+    .Project{
+        color: blue;
+        font-size: 30px;
+    }
+    .Resume{
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        filter: grayscale(50%);
+    }
+    .INTRO{
+        color: white;
+        text-align: center;
+        font-size: 30PX;
+    }
+    .CONTAINER{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 3rem;
+        margin-left: 25rem;
+    }
+    .MAIN{
+        border: 2px solid white;
+        width: 20rem;
+        height: 16rem; 
+        background-color: gray;
+        text-align: center;
+    }
+    .years{
+        color: yellow;
+        font-size: 30px;
+    }
+    .title{
+        color: white;
+        font-size: 35px;
+    }
+    
+    .MAIN2{
+        border: 2px solid white;
+        width: 20rem;
+        height: 16rem; 
+        background-color: gray;
+        text-align: center;
+    }
+    .Years{
+        color: yellow;
+        font-size: 30px;
+    }
+    .Title{
+        color: white;
+        font-size: 35px;
+    }
+    a{
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        font-style: italic;
+  
+        text-decoration: none;
+        background-color: magenta;
+        color: white;
+        gap: 1rem;
+    }
+    .A1{
+        margin-left: 55rem;
+    }
+    a:hover{
+        background-color: chartreuse;
+        color: purple;
+    }
+    .MAIN:hover{
+        background-color: deeppink;
+        color: blue;
+    }
+    .MAIN2:hover{
+        background-color: deeppink;
+        color: blue;
+    }

@@ -1,36 +1,26 @@
 body{
-    text-align: center;
-    background-color: deepskyblue;
-
+    background-image: url(code\ 1.jpg);
+    opacity: 100pX;
+    font-size: 30px;
+    color: white;
 }
-.p1{
-    
-    background-color: black;
-}
-img{
-    height: 400px;
-    margin-left: 100px;
-}
-.p2{
-    text-align: center;
-    float: left;
-    width: 100px;
-    width: 200px;
-    
-}
-
 a{
     text-decoration: none;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    color: black;
+    color: white;
 }
-.container{
-    width: 90%;
-    background: red;
-    height: 100px;
+img{
+    border-radius: 50px;
+    height: 500px;
+    width: 300px;
 }
 
-@media screen and ( min width:8
-    .container{
-        width:80%;
-        background: green;
-        height: 200px;
-    }
+@media only screen and(max-width: 600px)
+body{
+    background-color:light blue;
+}
+
+}
